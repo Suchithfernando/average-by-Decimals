@@ -9,6 +9,6 @@ int main()
     printf("Enter a number");
     scanf("%f",&no2);
     avg=(no1+no2)/2;
-    printf("The average is %3f\n",avg);
+    printf("The average is %.3f\n",avg);
     return 0;
 }
